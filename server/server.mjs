@@ -2,7 +2,6 @@ import './auth';
 import passport from 'koa-passport';
 import session from 'koa-session';
 import route from 'koa-route';
-import { default as LocalStrategy } from 'passport-local';
 import Koa from 'koa';
 import bodyParser from 'koa-bodyparser';
 

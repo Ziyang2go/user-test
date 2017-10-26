@@ -1,4 +1,4 @@
-import User from './User';
+import User from '../models/User';
 import passport from 'koa-passport';
 import MongoModels from 'mongo-models';
 import { default as LocalStrategy } from 'passport-local';
